@@ -1,11 +1,67 @@
-.image { 
-    position: relative; 
-    width: 100%;
-} 
-
-h2 { 
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-} 
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Papyrus;
+    background-color: rgb(34, 34, 34);
+}
+.banner
+{
+    width: auto;
+    height: 60px;
+    border-bottom: 0.5px #ffaae3 solid;
+    margin-bottom: none;
+    font-family: Papyrus;
+}
+.content1
+{
+    border-bottom: 0.5px #ffaae3 solid;
+    margin-top: none;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.logo
+{
+    float: left;
+}
+.profile
+{
+    width: 250px;
+    height: 400px;
+    float: right;
+    margin-right: 150px;
+}
+.content2
+{
+    border-bottom: 0.5px #ffaae3 solid;
+    margin-top: none;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.content3
+{
+    border-bottom: 0.5px #ffaae3 solid;
+    margin-top: none;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.button
+{
+    margin-left: 300px;
+    background: none;
+    margin: 10px 20px;
+    text-align: center;
+    border: 3px solid #ffaae3;
+    padding: 15px 30px;
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.button:hover{
+    border: 3px solid #ffd0aa;
+}
+div.button_area
+{
+    margin-left: 350px;
+}
