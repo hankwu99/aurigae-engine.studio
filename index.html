@@ -2,51 +2,62 @@
 <html>
     <head>
         <meta charset = "utf-8"></meta>
-        <title>syzygy world</title>
-        <link rel = "stylesheet" type="text/css" href="main.css">
+        <title>Aurigae Engine</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
     </head>
 
     <body>
         <form class = "banner" action = "main.html" method = "POST">
             <img class = "logo" src = "img/logo.png"></img>
-            <h1 style = "color: white; margin: 6px 10px;"> Aurigae Engine 程式|設計</h1>
+            <h1 style = "color: white; margin: 6px 10px;">Aurigae Engine 程式|設計</h1>
+            <input type = "button" class = "button2" onclick = "javascript:location.href = 'article.html'" style = "float: right;" value = "文章"></input>
+            <input type = "button" class = "button2" style = "float: right;" value = "首頁"></input>
             <hr size = 1px color = #ffaae3 width = 100%></hr>
         </form>
 
         <form class = "content" action = "main.html" method = "POST">
-            <h2 style = "color: white; ">Personality Introduction</h2>
+            <h1 style = "color: white; ">Personality Introduction</h1>
             <img class = "profile" src = "img/profile.jfif"></img>
-            <h4 class = "info" style = "color: white;">
-                暱稱 : 伊沐洛 <p><br>
-                年齡 : 17 高三生一枚 <p><br>
-                興趣 : 編程、設計、寫文章 <p><br>
-                目前學過的語言 : C / C++ / Python / Javascript (html / css) <p><br>
-                個人簡介 : 我是一個喜歡寫程式的高中生，但從高一接觸第一個Hello world <p>
-                才正式進入程式的世界。偶爾會寫一些沒用的Discord and Line bot， <p>
-                最近正在努力朝著成為一位優秀的前端網頁工程師的道路邁進。 <p>
-                大學希望有中字輩QAQ，不然就要指了。<p>
-            </h4>
+            <h3 class = "info" style = "color: white;">
+                暱稱 : 伊沐洛<br>
+                年齡 : 17 高三生一枚<br>
+                興趣 : 編程、設計、寫文章<br>
+                單推 : Vtuber杏仁ミル<p><br>
+                目前學過的語言 : C / C++ / Python / Javascript (html / css)<br>
+                個人簡介 : 我是一個喜歡寫程式的高中生，但從高一接觸第一個Hello world<br>
+                才正式進入程式的世界。偶爾會寫一些沒用的Discord and Line bot，<br>
+                最近正在努力朝著成為一位優秀的前端網頁工程師的道路邁進。<br>
+                大學希望有中字輩QAQ，不然就要指了。<br>
+            </h3>
             <hr size = 1px color = #ffaae3 width = 100%></hr>
-            <h2 style = "color: white; ">Website History</h2>
-            <h4 style = "color: white; ">
-                2021 . 1 . 27 / 本網站初次創立 <p>
-                2021 . 1 . 28 / Version 0.0.2 發布，版面改用Body管控 <p>
-            </h4>
-            <hr size = 1px color = #ffaae3 width = 100%></hr>
-            <h2 style = "color: white; ">My Links</h2>
+            <h1 style = "color: white; ">My Links</h1>
             <div class = "button_area" style = "margin-bottom: 10px;">
-                <input class = "button" value = "My Github"  onclick = "location.href = 'https://github.com/hankwu99'">
-                <input class = "button" value = "My Instagram" onclick = "location.href = 'https://www.instagram.com/__syzygy0/'">
-                <input class = "button" value = "Our Discord" onclick = "location.href = 'https://discord.gg/EKTG8A9'">
+                <input type = button class = "button" value = "My Github"  onclick = "location.href = 'https://github.com/hankwu99'">
+                <input type = button class = "button" value = "My Instagram" onclick = "location.href = 'https://www.instagram.com/__syzygy0/'">
+                <input type = button class = "button" value = "Our Discord" onclick = "location.href = 'https://discord.gg/EKTG8A9'">
             </div>
+            <hr size = 1px color = #ffaae3 width = 100%></hr>
+            <h1 style = "color: white; ">My works</h1>
+            <h4 style = "color: white; ">軟體研究社34屆社徽</h4>
+            <img class = "csdc" style = "width: 500px; height: 500px;" src = "img/csdc.png"></img>
+            <img class = "csdc2" style = "width: 500px; height: 500px;" src = "img/csdc2.png"></img>
+            <h4 style = "color: white; ">班級音樂會主視覺(未採用)</h4>
+            <img class = "concert" style = "width: 877px; height: 620px;" src = "img/concert.png"></img>
+            <hr size = 1px color = #ffaae3 width = 100%></hr>
+            <h1 style = "color: white; ">Website History</h1>
+            <h4 style = "color: white; ">
+                2021 . 1 . 27 / 本網站初次創立<p>
+                2021 . 1 . 28 / Version 0.0.2 發布，版面改用Body管控<p>
+                2021 . 1 . 29 / Version 0.0.3 發布，新增作品區、文章頁面，調整頁面順序<p>
+            </h4>
         </form>
         <form class = "footer" action = "main.html" method = "POST">
             <hr size = 1px color = #ffaae3 width = 100%></hr>
-            <h4 style = "color: white; text-align: center;" >@copyright (c) 2021 Aurigae Engine all rights reserved</h4>
+            <h4 style = "color: white; text-align: center;" >@2021 Aurigae Engine </h4>
         </form>
     </body>
-<script>
-    alert("本網站仍在測試階段，暫時仍無法解決非電腦全螢幕瀏覽時會出現的破圖情形。");
-</script>
 
+    <script>
+        alert("本網站仍在測試階段，暫時仍無法解決非電腦全螢幕瀏覽時會出現的破圖情形。");
+    </script>
 </html>
