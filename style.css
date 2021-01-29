@@ -8,18 +8,27 @@ body
 .banner
 {
     width: 1920px;
-    height: 60px;
+    height: 88px;
     margin-bottom: none;
     font-family: Papyrus;
 }
 .content
 {
     width: 1300px;
+    height: 2180px;
     text-align: center;
     margin:0 auto;
     border-left: 1px #ffaae3 solid;
     border-right: 1px #ffaae3 solid;
-
+}
+.content2
+{
+    width: 1300px;
+    height: 1000px;
+    text-align: center;
+    margin:0 auto;
+    border-left: 1px #ffaae3 solid;
+    border-right: 1px #ffaae3 solid;
 }
 .logo
 {
@@ -41,9 +50,10 @@ body
 .button
 {
     background: none;
+    width: 180px;
     text-align: center;
     border: 2px solid #ffaae3;
-    padding: 15px 20px;
+    padding: 15px 30px;
     color: white;
     font-size: 15px;
     border-radius: 50px;
@@ -52,6 +62,21 @@ body
 .button:hover
 {
     background: #f388fd;
+}
+.button2
+{
+    background: none;
+    width: 160px;
+    text-align: center;
+    border: 0;
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.button2:hover
+{
+    background: #818181;
 }
 .footer
 {
