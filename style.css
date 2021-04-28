@@ -7,78 +7,54 @@ body
 }
 .banner
 {
-    width: 1920px;
-    height: 88px;
-    margin-bottom: none;
+    width: 100%;
+    height: 10%;
     font-family: Papyrus;
+    border-bottom:1px #ffaae3 solid;
 }
 .content
 {
-    width: 1300px;
-    height: 2180px;
+    width: 70%;
+    height: 90%;
     text-align: center;
     margin:0 auto;
-    border-left: 1px #ffaae3 solid;
-    border-right: 1px #ffaae3 solid;
-}
-.content2
-{
-    width: 1300px;
-    height: 1000px;
-    text-align: center;
-    margin:0 auto;
-    border-left: 1px #ffaae3 solid;
-    border-right: 1px #ffaae3 solid;
+    background-color: rgb(43, 43, 43);
 }
 .logo
 {
     float: left;
-    margin-right: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 .info
 {
     text-align: left;
-    margin-left: 150px;
+    margin-left: 20%;
 }
 .profile
 {
-    width: 250px;
-    height: 400px;
+    width: 25%;
     float: right;
-    margin-right: 150px;
+    margin-right: 20%;
 }
 .button
 {
     background: none;
-    width: 180px;
+    width: 20%;
     text-align: center;
     border: 2px solid #ffaae3;
-    padding: 15px 30px;
+    padding: 2%;
     color: white;
-    font-size: 15px;
+    font-size: 100%;
     border-radius: 50px;
-    transition: 0.5s;
+    transition: 1s;
 }
 .button:hover
 {
     background: #f388fd;
 }
-.button2
-{
-    background: none;
-    width: 160px;
-    text-align: center;
-    border: 0;
-    padding: 10px 10px;
-    color: white;
-    font-size: 18px;
-    transition: 0.5s;
-}
-.button2:hover
-{
-    background: #818181;
-}
 .footer
 {
-    width: 1920px;
+    border-top:1px #ffaae3 solid;
+    width: 100%;
 }
