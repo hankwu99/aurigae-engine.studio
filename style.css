@@ -1,35 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+
 body
 {
     margin: 0;
     padding: 0;
-    font-family: Papyrus;
-    background-color: rgb(34, 34, 34);
+    font-family: 'Noto Sans TC', 'sans-serif';
+    background-color: rgb(201, 201, 201);
 }
 .banner
-{
+{   
     width: 100%;
-    height: 10%;
-    font-family: Papyrus;
-    border-bottom:1px #ffaae3 solid;
+    height: 70px;    
+    background-color: rgb(245, 245, 245);
+}
+.title
+{
+    color: black;
+    margin : 0 10%;
+    line-height: 70px;
 }
 .content
 {
-    width: 70%;
+    width: 80%;
     height: 90%;
     text-align: center;
     margin:0 auto;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
-.logo
+hr
 {
-    float: left;
-    margin-right: 2%;
-    margin-left: 2%;
+    size: 1px;
+    color: rgb(109, 109, 109);
+    width: 80%;
 }
 .info
 {
     text-align: left;
     margin-left: 20%;
+    margin-top: 5%;
 }
 .profile
 {
@@ -42,19 +51,20 @@ body
     background: none;
     width: 20%;
     text-align: center;
-    border: 2px solid #ffaae3;
+    border: 2px solid #000000;
     padding: 2%;
-    color: white;
     font-size: 100%;
     border-radius: 50px;
     transition: 1s;
 }
 .button:hover
 {
-    background: #f388fd;
+    background: #000000;
+    color: white;
 }
 .footer
 {
-    border-top:1px #ffaae3 solid;
+    background-color: rgb(245, 245, 245);
     width: 100%;
+    height: 70px;
 }
